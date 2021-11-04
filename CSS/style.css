@@ -1,10 +1,15 @@
-body{
+body {
   margin: 0;
+  text-align: center;
 }
-.title{
-  background-color: #88E0EF;
-padding: 20px;
 
+.title {
+  background-color: #88E0EF;
+  padding: 20px;
+}
+
+#introtable {
+  margin: 0 auto;
 }
 
 hr {
@@ -13,8 +18,8 @@ hr {
   border-width: 5px;
   border-color: grey;
   width: 5%;
-
 }
-h1, h3{
+
+h1, h3 {
   color: #161E54;
 }

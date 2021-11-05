@@ -3,13 +3,11 @@ body {
   text-align: center;
 }
 
-.title {
+.top-container {
   background-color: #88E0EF;
   padding: 20px;
-}
-
-#introtable {
-  margin: 0 auto;
+  padding-top: 100px;
+  position: relative;
 }
 
 hr {
@@ -18,8 +16,51 @@ hr {
   border-width: 5px;
   border-color: grey;
   width: 5%;
+  margin: 100px auto;
 }
 
-h1, h3 {
+h1 {
   color: #161E54;
+  font-size: 70px;
+  font-family: 'La Belle Aurore', cursive;
+  margin-bottom: 0;
+}
+
+h2{
+  font-family: 'Oxanium', cursive;
+  color: #161E54;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Oxanium', cursive;
+  color: #161E54;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 65%;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto;
+}
+
+.skillsicon{
+  width: 25%;
+}
+
+.profile{
+  margin-top: 100px;
 }
